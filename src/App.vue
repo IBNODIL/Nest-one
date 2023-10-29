@@ -265,6 +265,70 @@ import { RouterLink, RouterView } from 'vue-router'
       <img style="height: 230px;" src="./assets/img/card-5-photo.png" alt="">
     </div>
   </div>
+
+  <div class="beautiful-projects bg-black d-flex flex-column align-center pt-8 pb-16 px-16">
+    <div class="text-body-2 mt-10">Beautiful projects</div>
+    <div class="text-h4 ma-2">Nest One's most cozy places</div>
+    <div class="d-flex justify-space-around">
+      <div class="text d-flex flex-column justify-space-between pr-10">
+        <div>
+          <p class="text-h5 my-5">Nest One terraces tour</p>
+          <p class="text-body-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.</p> 
+          <p class="text-body-2">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctusenim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. </p>
+          <p class="text-body-2">Curabitur vel bibendum lorem. </p>
+          <p class="text-body-2">Morbi convallis convallis diam sit amet lacinia. </p>
+          <p class="text-body-2">Aliquam in elementum tellus.</p>
+        </div>
+
+        <div class="d-flex align-center">
+          <p class="text-body">01<span class="text-caption">/04</span></p>
+          <v-progress-linear color="grey-lighten-1" model-value="25"></v-progress-linear>
+          <v-btn class="bg-grey-darken-4" variant="tonal" rounded="xl" icon="mdi-arrow-left"></v-btn>
+          <v-btn class="bg-grey-darken-4" rounded="xl" icon="mdi-arrow-right"></v-btn>
+        </div>
+      </div>
+
+      <div class="video">
+        <img style="height: 400px;" src="./assets/img/about-pplace-video.png" alt="">
+        <div id="video-in-beautiful-projects">
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-space-between">
+              <div>
+                <v-icon class="mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+                      <path d="M12.532 9.31173L4.58301 14.6111C4.41069 14.726 4.17786 14.6794 4.06298 14.5071C4.02192 14.4455 4 14.3731 4 14.2991V3.70044C4 3.49333 4.16789 3.32544 4.375 3.32544C4.44903 3.32544 4.52142 3.34735 4.58301 3.38842L12.532 8.68773C12.7043 8.80263 12.7509 9.03543 12.636 9.20778C12.6085 9.24895 12.5732 9.28428 12.532 9.31173Z" fill="white"/>
+                    </svg>
+                </v-icon>
+                <p class="d-inline-block text-caption">0:01 / 0:24</p>
+              </div>
+
+              <div>
+                <v-icon>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <path d="M14.5416 2.37088L15.6023 3.43153L13.7456 5.28716L15.6023 7.14385L13.7456 8.99947L15.6023 10.8562L13.7461 12.7123L15.6023 14.5684L14.5416 15.6291L11.6248 12.7123L13.481 10.8562L11.6248 9L13.481 7.14385L11.6248 5.28769L14.5416 2.37088ZM9.74978 14.9587C9.74978 15.1657 9.58185 15.3337 9.37478 15.3337C9.28823 15.3337 9.2043 15.3037 9.13733 15.2489L5.16651 11.9993L2.24976 12C1.83555 12 1.49976 11.6642 1.49976 11.25V6.75C1.49976 6.33579 1.83555 6.00001 2.24976 6.00001L4.18747 5.99821L1.35547 3.16637L2.41613 2.10571L9.74948 9.4392L9.74978 14.9587ZM9.66503 2.80388C9.71978 2.87088 9.74978 2.95478 9.74978 3.04135V7.31787L6.96126 4.53013L9.13733 2.75111C9.2976 2.61996 9.53385 2.64359 9.66503 2.80388Z" fill="white"/>
+                  </svg>
+                </v-icon>
+
+                <v-icon>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <path d="M6 2.25V3.75H3V6.75H1.5V2.25H6ZM1.5 15.75V11.25H3V14.25H6V15.75H1.5ZM16.5 15.75H12V14.25H15V11.25H16.5V15.75ZM16.5 6.75H15V3.75H12V2.25H16.5V6.75Z" fill="white"/>
+                  </svg>
+                </v-icon>
+
+                <v-icon>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <path d="M9 2.25C8.175 2.25 7.5 2.925 7.5 3.75C7.5 4.575 8.175 5.25 9 5.25C9.825 5.25 10.5 4.575 10.5 3.75C10.5 2.925 9.825 2.25 9 2.25ZM9 12.75C8.175 12.75 7.5 13.425 7.5 14.25C7.5 15.075 8.175 15.75 9 15.75C9.825 15.75 10.5 15.075 10.5 14.25C10.5 13.425 9.825 12.75 9 12.75ZM9 7.5C8.175 7.5 7.5 8.175 7.5 9C7.5 9.825 8.175 10.5 9 10.5C9.825 10.5 10.5 9.825 10.5 9C10.5 8.175 9.825 7.5 9 7.5Z" fill="white"/>
+                  </svg>
+                </v-icon>
+              </div>
+            </div>
+
+            <v-progress-linear color="grey-lighten-1" model-value="15"></v-progress-linear>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -362,5 +426,10 @@ import { RouterLink, RouterView } from 'vue-router'
     100%{
       transform: rotate(360deg);
     }
+  }
+
+  #video-in-beautiful-projects{
+    margin-top: -60px;
+    padding: 10px 20px;
   }
 </style>
