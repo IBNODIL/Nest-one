@@ -192,9 +192,78 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </div>
 
-  <div class="projects">
+  <div class="projects d-flex align-center flex-column my-16">
     <div class="text-caption">Beautiful projects</div>
     <div class="text-h4">Our projects</div>
+
+    <div class="d-flex ma-5 align-center">
+      <v-card class="d-flex pa-5 align-center rounded-xl mx-16">
+        <img src="./assets/img/card-1-logo.png" style="height: 100%;" alt="">
+        <v-divider class="mx-10" vertical></v-divider>
+        <div class="projects-card-texts">
+          <p class="text-h4">Nest One apartments</p>
+          <p class="text-body" style="width: 500px;">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          
+          <v-expand-x-transition>
+            <div transition="slide-x-transition" class="hero-read-more mt-5"> <v-btn size="small" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn rounded="xl">Request and call back</v-btn> <v-btn size="small" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        
+          </v-expand-x-transition>
+        </div>
+      </v-card>
+      <img style="height: 230px;" src="./assets/img/card-1-photo.png" alt="">
+    </div>
+
+    <div class="d-flex ma-5 align-center">
+      <v-card class="d-flex pa-5 align-center rounded-xl mx-16">
+        <img src="./assets/img/card-2-logo.png" style="height: 100%;" alt="">
+        <v-divider class="mx-10" vertical></v-divider>
+        <div class="projects-card-texts">
+          <p class="text-h4">Gala by Nest One</p>
+          <p class="text-body" style="width: 500px;">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          <div transition="slide-x-transition" class="hero-read-more mt-5"> <v-btn size="small" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn rounded="xl">Request and call back</v-btn> <v-btn size="small" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+      </v-card>
+      <img style="height: 230px;" src="./assets/img/card-2-photo.png" alt="">
+    </div>
+
+    <div class="d-flex ma-5 align-center">
+      <v-card class="d-flex pa-5 align-center rounded-xl mx-16">
+        <img src="./assets/img/card-3-logo.png" style="height: 100%;" alt="">
+        <v-divider class="mx-10" vertical></v-divider>
+        <div class="projects-card-texts">
+          <p class="text-h4">Nest One Offices</p>
+          <p class="text-body" style="width: 500px;">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          <div transition="slide-x-transition" class="hero-read-more mt-5"> <v-btn size="small" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn rounded="xl">Request and call back</v-btn> <v-btn size="small" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+      </v-card>
+      <img style="height: 230px;" src="./assets/img/card-3-photo.png" alt="">
+    </div>
+
+    <div class="d-flex ma-5 align-center">
+      <v-card class="d-flex pa-5 align-center rounded-xl mx-16">
+        <img src="./assets/img/card-4-logo.png" style="height: 100%;" alt="">
+        <v-divider class="mx-10" vertical></v-divider>
+        <div class="projects-card-texts">
+          <p class="text-h4">Nest One Teracce</p>
+          <p class="text-body" style="width: 500px;">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          <div transition="slide-x-transition" class="hero-read-more mt-5"> <v-btn size="small" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn rounded="xl">Request and call back</v-btn> <v-btn size="small" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+      </v-card>
+      <img style="height: 230px;" src="./assets/img/card-4-photo.png" alt="">
+    </div>
+
+    <div class="d-flex ma-5 align-center">
+      <v-card class="d-flex pa-5 align-center rounded-xl mx-16">
+        <img src="./assets/img/card-5-logo.png" style="height: 100%;" alt="">
+        <v-divider class="mx-10" vertical></v-divider>
+        <div class="projects-card-texts">
+          <p class="text-h4">Nest One Smart</p>
+          <p class="text-body" style="width: 500px;">Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          <div transition="slide-x-transition" class="hero-read-more mt-5"> <v-btn size="small" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn rounded="xl">Request and call back</v-btn> <v-btn size="small" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+      </v-card>
+      <img style="height: 230px;" src="./assets/img/card-5-photo.png" alt="">
+    </div>
   </div>
 </template>
 
