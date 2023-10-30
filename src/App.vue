@@ -329,6 +329,25 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </div>
   </div>
+
+  <div id="partners">
+    <div id="part-1" class="d-flex">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-4.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-4.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/partenrs-6.png" alt="">  
+      <img class="d-inline ma-8" src="./assets/img/partenrs-1.png" alt="">
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -431,5 +450,29 @@ import { RouterLink, RouterView } from 'vue-router'
   #video-in-beautiful-projects{
     margin-top: -60px;
     padding: 10px 20px;
+  }
+
+  #partners{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+  }
+
+  #part-1{
+    position: relative;
+    animation-name: part-1;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes part-1{
+    0%{
+      transform: translateX(-100px);
+    }
+
+    100%{
+      transform: translateX(-1600px);
+    }
   }
 </style>
