@@ -348,6 +348,89 @@ import { RouterLink, RouterView } from 'vue-router'
       <img class="d-inline ma-8" src="./assets/img/partenrs-1.png" alt="">
     </div>
   </div>
+
+  <div class="bg-grey-lighten-3 our-advantage py-16 d-flex align-center flex-column">
+    <div class="mb-6 d-flex align-center flex-column">
+      <p class="text-caption">Our advantage</p>
+      <p class="text-h4">Entertaiments</p>
+
+      <div class="cards d-flex align-center justify-space-evenly flex-wrap">
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-1.png" width="300" alt="">
+          <p class="text-h4">Longue Terraces</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-2.png" width="300" alt="">
+          <p class="text-h4">Nest One Cinema</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+        
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-3.png" width="300" alt="">
+          <p class="text-h4">Metting Room</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-4.png" width="300" alt="">
+          <p class="text-h4">Children's Room</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-5.png" width="300" alt="">
+          <p class="text-h4">Library</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-6.png" width="300" alt="">
+          <p class="text-h4">Hall For Guests</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+        
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-7.png" width="300" alt="">
+          <p class="text-h4">Sky Walk</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+        <div class="card ma-8 d-inline-block" style="width: 300px;">
+          <img src="./assets/img/room-8.png" width="300" alt="">
+          <p class="text-h4">Trainig Hall</p>
+          <p class="text-subtitle-1 pa-2 d-inline-block">
+            Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu.
+          </p>
+          <div transition="slide-x-transition" class="hero-read-more"> <v-btn variant="outline" class="callbeck-1" icon="mdi-arrow-top-right"></v-btn> <div class="d-inline-block">Read more</div> <v-btn variant="outline" class="callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -461,8 +544,8 @@ import { RouterLink, RouterView } from 'vue-router'
   #part-1{
     position: relative;
     animation-name: part-1;
-    animation-duration: 7s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
 
