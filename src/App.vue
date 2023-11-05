@@ -501,7 +501,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
   </div>  
 
-  <div class="locatio mt-16 px-10 py-5 d-flex align-center flex-column">
+  <div class="locatio my-16 px-10 py-5 d-flex align-center flex-column">
     <p class="text-caption">View via map</p>
     <p class="text-h4">Location</p>
     <div class=" mt-10 mb-3 d-flex align-center justify-space-between">
@@ -516,6 +516,35 @@ import { RouterLink, RouterView } from 'vue-router'
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.8360318298583!2d69.2512813171222!3d41.31243052262696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b587a25915d%3A0x6b11bea07f51d72c!2sNEST%20ONE!5e0!3m2!1suz!2s!4v1699165158634!5m2!1suz!2s" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
+  <v-divider></v-divider>
+
+  <div class="my-10 px-15 py-10 contact-with-me d-flex justify-space-between">
+    <div class="pa-5 d-flex flex-column justify-space-between">
+      <div>
+        <p class="text-caption">Feel free to apply</p>
+        <p class="text-h4">Request a call back</p>
+      </div>
+
+      <div>
+        <p class="text-h6">Get a Call Back From the Nest One Specialist</p>
+
+        <v-text-field clearable variant="outlined" label="Full name"></v-text-field>
+        <v-text-field clearable variant="outlined" label="Phone number"></v-text-field>
+        <v-text-field clearable variant="outlined" label="E-mail adres"></v-text-field>
+
+      <div transition="slide-x-transition" class="ma-6 hero-read-more"> <v-btn variant="outlined" size="small" class="black callbeck-1" icon="mdi-arrow-top-right"></v-btn> <v-btn variant="outlined" rounded="xl">Request and call back</v-btn> <v-btn variant="outlined" size="small" class="black callbeck-2" icon="mdi-arrow-top-right"></v-btn> </div>
+      </div>
+
+      <div>
+        <v-divider></v-divider>
+
+      <div class="text-body-1">Feel free to contact us with any questions or suggestions, we are always ready to serve you, we appreciate you</div>
+    
+      </div>
+    </div>
+
+    <img src="./assets/img/operator-2.png" style="width: 50%;" alt="">
+  </div>
 </template>
 
 <style scoped>
