@@ -331,7 +331,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
 
   <div id="partners">
-    <div id="part-1" class="d-flex">
+    <div class="part-1 d-flex">
       <img class="d-inline ma-8" src="./assets/img/partenrs-6.png" alt="">
       <img class="d-inline ma-8" src="./assets/img/partenrs-1.png" alt="">
       <img class="d-inline ma-8" src="./assets/img/partenrs-2.png" alt="">
@@ -457,7 +457,52 @@ import { RouterLink, RouterView } from 'vue-router'
     </v-card>
   </div>
 
+  <div class="gallery py-16 d-flex flex-column align-center">
+    <p class="text-caption">Beautiful projects</p>
+    <p class="text-h4 mb-5">Gallery</p>
+    <div id="our-advantege">
+    <div class="gallery-part-1 gallery-animation d-flex">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
+    </div>
+
+    <div class="gallery-part-2 gallery-animation d-flex">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
+    </div>
+  </div>
+  </div>  
+
   
+
 </template>
 
 <style scoped>
@@ -568,7 +613,7 @@ import { RouterLink, RouterView } from 'vue-router'
     height: 100px;
   }
 
-  #part-1{
+  .part-1{
     position: relative;
     animation-name: part-1;
     animation-duration: 10s;
@@ -583,6 +628,45 @@ import { RouterLink, RouterView } from 'vue-router'
 
     100%{
       transform: translateX(-1600px);
+    }
+  }
+
+  .gallery{
+    overflow: hidden;
+  }
+
+  .gallery-animation{
+    position: relative;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .gallery-part-1{
+    animation-name: animate-gallery-1;
+  }
+
+  .gallery-part-2{
+    animation-name: animate-gallery-2;
+  }
+
+  @keyframes animate-gallery-1{
+    0%{
+      transform: translateX(-100px);
+    }
+
+    100%{
+      transform: translateX(-2755px);
+    }
+  }
+
+  @keyframes animate-gallery-2{
+    0%{
+      transform: translateX(100px);
+    }
+
+    100%{
+      transform: translateX(2700px);
     }
   }
 </style>
