@@ -462,41 +462,41 @@ import { RouterLink, RouterView } from 'vue-router'
     <p class="text-h4 mb-5">Gallery</p>
     <div id="our-advantege">
     <div class="gallery-part-1 gallery-animation d-flex">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-2.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-3.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-4.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-1.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-2.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-3.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-4.png" alt="">
     </div>
 
     <div class="gallery-part-2 gallery-animation d-flex">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
-      <img class="d-inline ma-8" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-6.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-7.png" alt="">
-      <img class="d-inline ma-8" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-8.png" alt="">
+      <img class="d-inline ma-2" style="width: 600px; height: 361px;" src="./assets/img/gallery-img-5.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-6.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-7.png" alt="">
+      <img class="d-inline ma-2" src="./assets/img/gallery-img-8.png" alt="">
     </div>
   </div>
   </div>  
@@ -544,6 +544,117 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
 
     <img src="./assets/img/operator-2.png" style="width: 50%;" alt="">
+  </div>
+
+  <div class="bg-black d-flex flex-column pa-10">
+    <div class="my-16 d-flex align-center justify-lg-space-evenly">
+      <div class="d-inline-flex flex-column pa-5 bg-grey-darken-4 rounded-lg">
+        <img width="100" src="./assets/img/logo.png" alt="">
+        <p class="my-2 text-caption">A brand new style of luxury. Buy your apartment <br> from the tallest building in Central Asia at <br> affordable prices.</p>
+      </div>
+
+      <div>
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">About us</p>
+        </div>
+
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Projects</p>
+        </div>
+
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Launches</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Virtual tour</p>
+        </div>
+      
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Available units</p>
+        </div>
+      
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Masterplan</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Virtual tour</p>
+        </div>
+      
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Available units</p>
+        </div>
+      
+        <div class="d-flex flex-row footer-link">
+          <span class="footer-links-icon ml-2 mt-2"> <v-icon>mdi-arrow-top-right</v-icon> </span>
+          <p class="mt-2 text-body-2">Masterplan</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="d-flex flex-row ma-2">
+          <span> 
+            <v-icon>
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66667 0.5C6.39052 0.5 6.16667 0.723858 6.16667 1C6.16667 1.27614 6.39052 1.5 6.66667 1.5C7.30139 1.5 7.9299 1.62502 8.5163 1.86792C9.10271 2.11081 9.63553 2.46683 10.0843 2.91565C10.5332 3.36447 10.8892 3.89729 11.1321 4.4837C11.375 5.0701 11.5 5.69861 11.5 6.33333C11.5 6.60948 11.7239 6.83333 12 6.83333C12.2761 6.83333 12.5 6.60948 12.5 6.33333C12.5 5.56729 12.3491 4.80875 12.056 4.10101C11.7628 3.39328 11.3331 2.75022 10.7915 2.20854C10.2498 1.66687 9.60672 1.23719 8.89899 0.944036C8.19125 0.650884 7.43271 0.5 6.66667 0.5ZM12 11.6667V10.5694C12 10.0242 11.6681 9.53389 11.1619 9.33141L9.80576 8.78897C9.16191 8.53143 8.42813 8.81041 8.11801 9.43066L8 9.66667C8 9.66667 6.33333 9.33333 5 8C3.66667 6.66667 3.33333 5 3.33333 5L3.56934 4.88199C4.18959 4.57187 4.46857 3.83809 4.21103 3.19424L3.66859 1.83815C3.46611 1.33194 2.97583 1 2.43062 1H1.33333C0.596954 1 0 1.59695 0 2.33333C0 8.22437 4.77563 13 10.6667 13C11.403 13 12 12.403 12 11.6667ZM6.16667 3.66667C6.16667 3.39052 6.39052 3.16667 6.66667 3.16667C7.08252 3.16667 7.4943 3.24857 7.8785 3.40771C8.2627 3.56685 8.61179 3.80011 8.90584 4.09416C9.19989 4.38821 9.43314 4.7373 9.59229 5.1215C9.75142 5.5057 9.83333 5.91748 9.83333 6.33333C9.83333 6.60948 9.60948 6.83333 9.33333 6.83333C9.05719 6.83333 8.83333 6.60948 8.83333 6.33333C8.83333 6.0488 8.77729 5.76706 8.66841 5.50419C8.55952 5.24131 8.39993 5.00246 8.19873 4.80127C7.99754 4.60008 7.75869 4.44048 7.49581 4.33159C7.23294 4.22271 6.9512 4.16667 6.66667 4.16667C6.39052 4.16667 6.16667 3.94281 6.16667 3.66667Z" fill="white"/>
+              </svg>
+            </v-icon> 
+          </span>
+          <p class="mt-2 text-body-2">nextone@gmail.com</p>
+        </div>
+      
+        <div class="d-flex flex-row ma-2">
+          <span> 
+            <v-icon>
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.339573 3.77432C0.335418 3.84902 0.333313 3.92426 0.333313 4V8C0.333313 10.2091 2.12417 12 4.33331 12H9.66665C11.8758 12 13.6666 10.2091 13.6666 8V4C13.6666 3.92426 13.6645 3.84901 13.6604 3.77432L9.64675 6.69332C8.06882 7.84091 5.93113 7.84091 4.35321 6.69332L0.339573 3.77432ZM0.551964 2.69229L4.94138 5.88459C6.16866 6.77715 7.8313 6.77715 9.05858 5.88459L13.448 2.69228C12.9062 1.12533 11.4178 0 9.66665 0H4.33331C2.58213 0 1.09378 1.12533 0.551964 2.69229Z" fill="white"/>
+              </svg>
+            </v-icon> 
+          </span>
+          <p class="mt-2 text-body-2">+971564156565</p>
+        </div>
+
+        <div class="d-flex flex-row ma-2">
+          <span> 
+            <v-icon>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M13.7467 5.63317C13.0467 2.55317 10.36 1.1665 8 1.1665C8 1.1665 8 1.1665 7.99334 1.1665C5.64 1.1665 2.94667 2.5465 2.24667 5.6265C1.46667 9.0665 3.57334 11.9798 5.48 13.8132C6.18667 14.4932 7.09334 14.8332 8 14.8332C8.90667 14.8332 9.81334 14.4932 10.5133 13.8132C12.42 11.9798 14.5267 9.07317 13.7467 5.63317ZM8 8.97317C6.84 8.97317 5.9 8.03317 5.9 6.87317C5.9 5.71317 6.84 4.77317 8 4.77317C9.16 4.77317 10.1 5.71317 10.1 6.87317C10.1 8.03317 9.16 8.97317 8 8.97317Z" fill="white"/>
+              </svg>
+            </v-icon> 
+          </span>
+          <p class="mt-2 text-body-2">Tashkent, Shayxontohur, 15 A</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <v-divider></v-divider>
+
+      <div class="d-flex justify-space-between mt-10">
+        <p class="text-caption">
+          We treat your personal information as confidential and will handle it in accordance with data protection legislation as well as with the terms of this
+          <br>statement. It is in principal possible to use our website without providing any personal information.
+        </p>
+
+        <p class="text-body-1">
+          Avazbek Djumabayev
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -698,7 +809,7 @@ import { RouterLink, RouterView } from 'vue-router'
     }
 
     100%{
-      transform: translateX(-2755px);
+      transform: translateX(-2565px);
     }
   }
 
@@ -708,7 +819,16 @@ import { RouterLink, RouterView } from 'vue-router'
     }
 
     100%{
-      transform: translateX(2700px);
+      transform: translateX(2510px);
     }
+  }
+
+  .footer-link:hover .footer-links-icon{
+    transform: rotate(45deg);
+  }
+
+  .footer-link:hover p{
+    position: relative;
+    left: 10px;
   }
 </style>
