@@ -501,7 +501,20 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
   </div>  
 
-  
+  <div class="locatio mt-16 px-10 py-5 d-flex align-center flex-column">
+    <p class="text-caption">View via map</p>
+    <p class="text-h4">Location</p>
+    <div class=" mt-10 mb-3 d-flex align-center justify-space-between">
+      <v-btn class="mx-2 bg-black" rounded="xl">Nest One mainly building</v-btn>
+      <v-btn class="mx-2" rounded="xl">Nest One garden</v-btn>
+      <v-btn class="mx-2" rounded="xl">Entrance gate</v-btn>
+      <v-btn class="mx-2" rounded="xl">Nearest bank</v-btn>
+      <v-btn class="mx-2" rounded="xl">Nearest restaurant</v-btn>
+      <v-btn class="mx-2" rounded="xl">Hilton</v-btn>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.8360318298583!2d69.2512813171222!3d41.31243052262696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b587a25915d%3A0x6b11bea07f51d72c!2sNEST%20ONE!5e0!3m2!1suz!2s!4v1699165158634!5m2!1suz!2s" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 
 </template>
 
