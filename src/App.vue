@@ -656,9 +656,31 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </div>
   </div>
+
+  <div class="black-wall">
+    <p class="black-wall-text text-h4">Please enter with bigger device.</p>
+  </div>
 </template>
 
 <style scoped>
+  .black-wall{
+    display: none;
+    width: 200vw;
+    height: 200vh;
+    background-color: black;
+    position: fixed;
+    top: -100px;
+    left: -100px;
+  }
+
+  .black-wall-text{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
   #navbar-links
   {
     border:2px solid rgb(184, 184, 184);
@@ -830,5 +852,11 @@ import { RouterLink, RouterView } from 'vue-router'
   .footer-link:hover p{
     position: relative;
     left: 10px;
+  }
+
+  @media only screen and (max-width: 1230px){
+    .black-wall{
+      display: block;
+    }
   }
 </style>
